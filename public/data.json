@@ -1,0 +1,96 @@
+[
+    {
+      "thumbnail":"https://i.ibb.co.com/MfjrkBw/download.jpg",
+      "title": "Community Health Camp",
+      "description": "Looking for volunteers to assist in organizing a free health check-up camp.",
+      "category": "Healthcare",
+      "location": "New York, NY",
+      "volunteers_needed": 10,
+      "deadline": "2024-01-15"
+     
+    },
+    {
+      "thumbnail":"https://i.ibb.co.com/gmLy66k/1795173919.webp",
+      "title": "Tutoring Underprivileged Children",
+      "description": "Seeking volunteers to tutor children in basic math and English.",
+      "category": "Education",
+      "location": "San Francisco, CA",
+      "volunteers_needed": 5,
+      "deadline": "2024-02-01"
+     
+    },
+    {
+      "thumbnail":"https://i.ibb.co.com/XVNH0bM/images-1.jpg",
+      "title": "Pet Adoption Drive",
+      "description": "Help needed to organize a pet adoption event.",
+      "category": "Animal Welfare",
+      "location": "Austin, TX",
+      "volunteers_needed": 7,
+      "deadline": "2024-03-10"
+    },
+    {
+      "thumbnail":"https://i.ibb.co.com/PTmmgZj/POC-Voices-Digital-Next-Gen-Social-Worker-1400x766-1-1.png",
+      "title": "Homeless Shelter Assistance",
+      "description": "Volunteers required to distribute food and supplies at a local shelter.",
+      "category": "Social Service",
+      "location": "Chicago, IL",
+      "volunteers_needed": 15,
+      "deadline": "2024-01-20"
+    },
+    {
+      "thumbnail":"https://i.ibb.co.com/tmmfL73/download.jpg",
+      "title": "Blood Donation Drive",
+      "description": "Volunteers needed to manage donor registrations.",
+      "category": "Healthcare",
+      "location": "Los Angeles, CA",
+      "volunteers_needed": 8,
+      "deadline": "2024-02-15"
+    },
+    {
+      "thumbnail":"https://i.ibb.co.com/gmLy66k/1795173919.webp",
+      "title": "Library Book Organization",
+      "description": "Help needed to sort and organize donated books for a community library.",
+      "category": "Education",
+      "location": "Seattle, WA",
+      "volunteers_needed": 4,
+      "deadline": "2024-01-30"
+    },
+    {
+      "thumbnail":"https://i.ibb.co.com/XVNH0bM/images-1.jpg",
+      "title": "Wildlife Sanctuary Cleanup",
+      "description": "Seeking volunteers to help clean and maintain a wildlife sanctuary.",
+      "category": "Animal Welfare",
+      "location": "Denver, CO",
+      "volunteers_needed": 12,
+      "deadline": "2024-03-05"
+    },
+    {
+      "thumbnail":"https://i.ibb.co.com/PTmmgZj/POC-Voices-Digital-Next-Gen-Social-Worker-1400x766-1-1.png",
+      "title": "Clothing Drive Sorting",
+      "description": "Volunteers needed to sort and distribute clothing donations.",
+      "category": "Social Service",
+      "location": "Boston, MA",
+      "volunteers_needed": 10,
+      "deadline": "2024-02-20"
+     
+    },
+    {
+      "thumbnail":"https://i.ibb.co.com/tmmfL73/download.jpg",
+      "title": "Mental Health Awareness Workshop",
+      "description": "Volunteers required to assist with workshop logistics.",
+      "category": "Healthcare",
+      "location": "Phoenix, AZ",
+      "volunteers_needed": 6,
+      "deadline": "2024-04-10"
+    },
+    {
+      "thumbnail":"https://i.ibb.co.com/gmLy66k/1795173919.webp",
+      "title": "After School Art Program",
+      "description": "Looking for volunteers to teach basic art skills to children.",
+      "category": "Education",
+      "location": "Miami, FL",
+      "volunteers_needed": 3,
+      "deadline": "2024-03-25"
+    }
+  ]
+  
