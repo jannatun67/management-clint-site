@@ -10,7 +10,7 @@ const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
   const { theme, toggleTheme } = useContext(AuthContext);
   return (
-    <div>
+    <div className="sticky top-0 z-20 bg-white">
       <div className="navbar  md:w-11/12 md:mx-auto z-50">
         <div className="navbar-start">
           <div className="dropdown">
