@@ -20,8 +20,6 @@ const JoinMovement = () => {
                     us.
                 </p>
                 </div>
-              
-             
                     <button className = "btn-primary btn" >
                      Add Queries
                     </button>
