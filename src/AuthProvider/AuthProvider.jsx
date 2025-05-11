@@ -43,6 +43,7 @@ const AuthProvider = ({children}) => {
                 axios.post('https://management-server-site-7.onrender.com/jwt',user,{withCredentials: true})
                  .then(res =>{
                 //   console.log("login token",res.data);
+                
                   setLoading(false)
                  })
             }
