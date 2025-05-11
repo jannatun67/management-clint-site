@@ -5,6 +5,7 @@ import { AuthContext } from "../../AuthProvider/AuthProvider";
 import { IoGrid } from "react-icons/io5";
 import { BsFillGrid3X3GapFill } from "react-icons/bs";
 import axios from "axios";
+import { DotLoader } from "react-spinners";
 
 const AllVolunteer = () => {
   const [posts, setPosts] = useState([]);
@@ -106,8 +107,8 @@ const AllVolunteer = () => {
             </div>
           </div>
         </div>
-
-        <div
+        {
+          sortedPosts? ( <div
           className={`grid grid-cols-1 md:grid-cols-2 ${
             grid ? "lg:grid-cols-3" : "lg:grid-cols-2"
           } gap-3 mt-10`}
@@ -115,7 +116,10 @@ const AllVolunteer = () => {
           {sortedPosts.map((post) => (
             <AllVolunteerCard key={post._id} post={post}></AllVolunteerCard>
           ))}
-        </div>
+        </div>):(<div className="flex justify-center my-10">
+            <DotLoader />
+          </div>)
+        }
       </div>
     </div>
   );
