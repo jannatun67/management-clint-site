@@ -4,6 +4,10 @@ import VolunteerNeeds from "../../Componentes/VolunteerNeeds/VolunteerNeeds";
 import ReliableCare from "../MyProfile/ReliableCare/ReliableCare";
 import ListOf from "../../Componentes/ListOf/ListOf";
 import JoinMovement from "../../Componentes/JoinMovement";
+import HeroStats from "../../Componentes/HeroStats";
+import SuccessStories from "../../Componentes/SuccessStories";
+import UpcomingEvents from "../../Componentes/UpcomingEvents";
+import FAQSection from "../../Componentes/FAQSection";
 
 
 const HomePage = () => {
@@ -13,10 +17,14 @@ const HomePage = () => {
             <title>Volunteer Management / Home</title>
           </Helmet>
           <Banner></Banner>
+          <HeroStats></HeroStats>
           <VolunteerNeeds></VolunteerNeeds>
+          <SuccessStories></SuccessStories>
+          <UpcomingEvents></UpcomingEvents>
           <ReliableCare></ReliableCare>
           <ListOf></ListOf>
           <JoinMovement></JoinMovement>
+          <FAQSection></FAQSection>
         </div>
     );
 };

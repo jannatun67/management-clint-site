@@ -1,47 +1,91 @@
+/* Banner Background Images */
+.banner1 {
+  background-image: url('https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+}
 
-  .swiper {
-    width: 100%;
-    height: 100%;
+.banner2 {
+  background-image: url('/src/assets/Images/Banner/banner2.jpg');
+}
+
+.banner3 {
+  background-image: url('https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Swiper Slide Styling */
+.swiper-slide {
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-slide::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.4) 100%);
+  z-index: 1;
+}
+
+/* Text Animation Delays */
+.swiper-slide-active h1 {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.swiper-slide-active p {
+  animation: fadeInUp 1s ease-out 0.3s forwards;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.swiper-slide-active .flex {
+  animation: fadeInUp 1s ease-out 0.6s forwards;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.swiper-slide-active .grid {
+  animation: fadeInUp 1s ease-out 0.9s forwards;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .mySwiper {
+    height: 500px;
   }
   
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .mySwiper :global(.swiper-button-prev),
+  .mySwiper :global(.swiper-button-next) {
+    display: none;
   }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .banner1{
-    background-image: url("../../assets/Images/Banner/banner1.jpg");
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-    height: 100vh;
-  }
-  .banner2{
-    background-image: url('../../assets/Images/Banner/banner2.jpg');
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-    height: 100vh;
-  }
-  .banner3{
-    background-image: url("../../assets/Images/Banner/banner3.jpg");
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-    height: 100vh;
-  }
+}
+
+/* Hover Effects */
+.banner1, .banner2, .banner3 {
+  transition: transform 8s ease;
+}
+
+.swiper-slide-active .banner1,
+.swiper-slide-active .banner2,
+.swiper-slide-active .banner3 {
+  transform: scale(1.1);
+}
