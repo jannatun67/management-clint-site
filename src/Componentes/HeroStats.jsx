@@ -32,30 +32,35 @@ const HeroStats = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
-            <div 
-              key={index} 
-              className={`text-center p-8 rounded-2xl transform hover:scale-105 transition-all duration-300 ${
-                theme === "light" 
-                  ? "bg-white shadow-xl hover:shadow-2xl" 
-                  : "bg-gray-700 shadow-2xl hover:shadow-3xl"
-              }`}
-            >
-              <div className={`text-5xl mb-4 ${
-                theme === "light" ? "text-blue-600" : "text-yellow-400"
-              }`}>
-                {stat.icon}
-              </div>
-              <div className={`text-4xl font-bold mb-2 ${
-                theme === "light" ? "text-gray-800" : "text-white"
-              }`}>
-                {inView && <CountUp end={stat.value} duration={2.5} suffix={stat.suffix} />}
-              </div>
-              <p className={`text-lg ${
-                theme === "light" ? "text-gray-600" : "text-gray-300"
-              }`}>
-                {stat.label}
-              </p>
-            </div>
+           <div 
+  key={index} 
+  className={`text-center p-8 rounded-2xl transform hover:scale-105 transition-all duration-300 ${
+    theme === "light" 
+      ? "bg-white shadow-xl hover:shadow-2xl" 
+      : "bg-gray-700 shadow-2xl hover:shadow-3xl"
+  }`}
+>
+  {/* Icon Wrapper */}
+  <div className={`flex items-center justify-center w-20 h-20 mx-auto mb-4 rounded-full ${
+    theme === "light" ? "bg-blue-100 text-blue-600" : "bg-yellow-800 text-yellow-400"
+  }`}>
+    {stat.icon}
+  </div>
+
+  {/* Count */}
+  <div className={`text-4xl font-bold mb-2 ${
+    theme === "light" ? "text-gray-800" : "text-white"
+  }`}>
+    {inView && <CountUp end={stat.value} duration={2.5} suffix={stat.suffix} />}
+  </div>
+
+  {/* Label */}
+  <p className={`text-lg ${
+    theme === "light" ? "text-gray-600" : "text-gray-300"
+  }`}>
+    {stat.label}
+  </p>
+</div>
           ))}
         </div>
       </div>

@@ -12,7 +12,7 @@ const SuccessStories = () => {
       id: 1,
       name: "Sarah Johnson",
       role: "Volunteer Coordinator",
-      image: "https://images.unsplash.com/photo-1494790108777-286d2a6a6494?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+      image: "https://www.cookcountydems.com/wp-content/uploads/2023/12/Johnson-Sarah-Headshot.jpg",
       quote: "Volunteering has changed my life completely. I've met amazing people and made a real difference in my community.",
       location: "New York, USA"
     },

@@ -22,7 +22,7 @@ const UpcomingEvents = () => {
       date: "March 28, 2024",
       time: "10:00 AM - 4:00 PM",
       location: "Downtown Community Center",
-      image: "https://images.unsplash.com/photo-1593113598331-5a5c3f3c9b4c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+      image: "https://img.freepik.com/free-photo/group-different-people-volunteering-foodbank-poor-people_23-2149012210.jpg?semt=ais_rp_progressive&w=740&q=80",
       spots: 15
     },
     {
@@ -31,7 +31,7 @@ const UpcomingEvents = () => {
       date: "April 2, 2024",
       time: "2:00 PM - 5:00 PM",
       location: "Senior Living Center",
-      image: "https://images.unsplash.com/photo-1576765975123-6f8e7b0a5b1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+      image: "https://www.paho.org/sites/default/files/styles/4_3_med/public/body-data/2025/11/elderly-care-1.jpg?itok=yOsP14G2",
       spots: 10
     }
   ];
